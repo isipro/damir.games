@@ -1,0 +1,95 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.navbar {
+    text-align: center;
+    position: relative;
+    height: 80px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 60px;
+}
+.logo-img {
+
+    
+}
+
+.slogan {
+    display: inline-block;
+    width: 300px;
+}
+
+.menu {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 350px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.main {
+    text-align: center;;
+}
+
+.colors-list li{
+    list-style-type: none;
+}
+
+.colors {
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+}
+
+.colors-container {
+    display: inline-block;
+    width: 150px;
+    margin: 50px;
+    text-align: center;
+}
+
+.color {
+    border: 2px solid orange;
+    border-radius: 50px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.selected {
+    border: 5px solid white;
+    box-shadow: 2px 2px 20px black;
+    padding: 5px;
+}
+
+/* Colors */
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}

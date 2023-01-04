@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                Damir
+                <img src="damir.png" alt="" class="logo-img">
+            </div>
+            <div class="slogan">
+                <h2>
+                    Welcome to Colors Matcher
+                </h2>
+            </div>
+            <nav class="menu">
+                menu
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        
+        <section class="colors">
+            <div class="colors-container first-color">
+                <h3>Color 1</h3>
+                <ul class="colors-list">
+                    <li id="1" class="color red" onclick="onGetColor(event)" style="background-color: #ff0000" ></li>
+                    <li id="2" class="color blue" onclick="onGetColor(event)" style="background-color: #000dff" ></li>
+                    <li id="3" class="color blue" onclick="onGetColor(event)" style="background-color: #00ff00" ></li>
+                    <!-- <li class="color"></li>
+                    <li class="color"></li> -->
+                </ul>
+            </div>
+            <div class="colors-container  second-color">
+                <h3>Color 2</h3>
+                <ul class="colors-list">
+                    <li id="4" class="color red" onclick="onGetColor(event)" style="background-color: #0000ff" ></li>
+                    <li id="5" class="color blue" onclick="onGetColor(event)" style="background-color: #00ff00" ></li>
+                    <li id="6" class="color blue" onclick="onGetColor(event)" style="background-color: #00ff00" ></li>
+                    <!-- <li class="color"></li>
+                    <li class="color"></li> -->
+                </ul>
+            </div>
+            <div class="colors-container  color-match">
+                <h3>Result</h3>
+                <ul class="colors-list">
+                    <li class="color" onclick="onSetColor(event)"></li>
+                    <li class="color" onclick="onSetColor(event)"></li>
+                    <li class="color" onclick="onSetColor(event)"></li>
+                    <!-- <li class="color"></li>
+                    <li class="color"></li> -->
+                </ul>
+            </div>
+        </section>
+
+        <button class="btn btn-primary" onclick="onClick()">alert</button>
+    </main>
+    <footer class="footer">
+        footer
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
